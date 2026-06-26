@@ -277,3 +277,310 @@ gradient(135deg,#FFF3E0,#FFE0B2)}.c1 .cn{color:#E65100}
     #soundbox::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 80% 30%,rgba(255,45,120,.3) 0%,transparent 60%),radial-gradient(circle at 20% 80%,rgba(124,58,237,.3) 0%,transparent 60%)}
     .sb-inner{display:flex;align-items:center;gap:60px;flex-wrap:wrap;justify-content:center;position:relative}
     .sb-badge{display:inline-
+              
+
+
+
+  
+
+
+
+
+
+
+ block;background:linear-gradient(135deg,var(--pink),#FF1744);color:#fff;font-size:.8rem;font-weight:700;padding:6px 18px;border-radius:30px;margin-bottom:18px;letter-spacing:.08em;box-shadow:0 4px 15px rgba(255,45,120,.4);animation:pulseB 2s ease-in-out infinite}
+    .sb-text h2{font-family:'Baloo Da 2',cursive;font-size:clamp(1.8rem,5vw,2.8rem);margin-bottom:16px;line-height:1.2}
+    .sb-text h2 .acc{color:var(--yellow);text-shadow:0 0 30px rgba(255,214,0,.6)}
+    .sb-text p{color:#E0E0E0;line-height:1.8;max-width:500px;margin-bottom:28px;font-size:1.05rem}
+    .sb-feat{display:flex;flex-direction:column;gap:12px;margin-bottom:32px}
+    .sf{display:flex;align-items:center;gap:12px;font-size:1rem;padding:12px;background:rgba(255,255,255,.1);border-radius:10px;backdrop-filter:blur(10px);transition:.3s}
+    .sf:hover{background:rgba(255,255,255,.15);transform:translateX(10px)}
+    .sf .dot{width:10px;height:10px;border-radius:50%;background:var(--yellow);flex-shrink:0;box-shadow:0 0 15px var(--yellow)}
+    .sb-vis{font-size:12rem;line-height:1;filter:drop-shadow(0 0 60px rgba(255,45,120,.8));animation:pulseSB 3s ease-in-out infinite}
+    @keyframes pulseSB{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(1.1) rotate(5deg)}}
+    .sb-btns{display:flex;gap:15px;flex-wrap:wrap}
+ 
+    /* ===== WHY US ===== */
+    #why{background:#fff}
+    .why-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:28px}
+    .why-card{border-radius:var(--radius);padding:32px 24px;transition:.3s;position:relative;overflow:hidden}
+    .why-card::before{content:'';position:absolute;top:-50%;right:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(255,255,255,.8) 0%,transparent 70%);transform:scale(0);transition:.6s}
+    .why-card:hover::before{transform:scale(1)}
+    .why-card:hover{transform:translateY(-8px);box-shadow:0 15px 40px rgba(0,0,0,.15)}
+    .why-card .ic{font-size:3rem;margin-bottom:18px;transition:.3s}
+    .why-card:hover .ic{transform:scale(1.2) rotate(10deg)}
+  .why-card h3{font-family:'Baloo Da 2',cursive;font-size:1.2rem;margin-bottom:10px;position:relative;z-index:1}
+    .why-card p{font-size:.92rem;color:var(--muted);line-height:1.7;position:relative;z-index:1}
+    .w1{background:linear-gradient(135deg,#FFF3E0,#FFE0B2)}.w1 h3{color:#E65100}
+    .w2{background:linear-gradient(135deg,#F3E5F5,#E1BEE7)}.w2 h3{color:#6A1B9A}
+    .w3{background:linear-gradient(135deg,#E3F2FD,#BBDEFB)}.w3 h3{color:#1565C0}
+    .w4{background:linear-gradient(135deg,#E8F5E9,#C8E6C9)}.w4 h3{color:#2E7D32}
+   /* ===== REVIEWS ===== */
+    #reviews{background:linear-gradient(135deg,#F5F0FF,#FAF5FF)}
+    .rev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:25px}
+    .rev-card{background:#fff;border-radius:var(--radius);padding:26px;box-shadow:0 4px 15px rgba(124,58,237,.1);transition:.3s}
+    .rev-
+card:hover{transform:translateY(-8px);box-shadow:0 15px 40px rgba(124,58,237,.2)}
+    .rev-hd{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+    .av{width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0;box-shadow:0 4px 15px rgba(0,0,0,.1)}
+    .rev-m h4{font-weight:700;font-size:1rem}
+    .rev-m span{font-size:.82rem;color:var(--muted)}
+    .stars{color:#FFD600;font-size:1.1rem;margin-bottom:10px;letter-spacing:3px;text-shadow:0 2px 5px rgba(255,214,0,.3)}
+    .rev-card p{font-size:.92rem;color:#444;line-height:1.7}
+    .vf{display:inline-block;background:linear-gradient(135deg,#E8F5E9,#C8E6C9);color:#2E7D32;font-size:.75rem;font-weight:700;padding:4px 14px;border-radius:30px;margin-top:12px}
+
+/* ===== ORDER ===== */
+    #order{background:#fff}
+    .steps{display:flex;gap:0;flex-wrap:wrap;position:relative;margin-bottom:50px}
+    .step{flex:1;min-width:220px;padding:25px;text-align:center;position:relative;transition:.3s}
+    .step:hover{transform:translateY(-10px)}
+    .step-n{width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Baloo Da 2',cursive;font-size:1.6rem;font-weight:800;color:#fff;margin:0 auto 18px;box-shadow:0 6px 20px rgba(0,0,0,.2);transition:.3s}
+    .step:hover .step-n{transform:scale(1.15)}
+  
+.step:nth-child(1) .step-n{background:linear-gradient(135deg,var(--orange),var(--yellow))}
+    .step:nth-child(2) .step-n{background:linear-gradient(135deg,var(--purple),var(--pink))}
+    .step:nth-child(3) .step-n{background:linear-gradient(135deg,var(--whatsapp),#128C7E)}
+    .step:nth-child(4) .step-n{background:linear-gradient(135deg,var(--pink),var(--orange))}
+    .step h3{font-family:'Baloo Da 2',cursive;font-size:1.1rem;margin-bottom:8px;color:var(--dark)}
+    .step p{font-size:.9rem;color:var(--muted);line-height:1.7}
+    .step-ar{position:absolute;right:-16px;top:45px;font-size:1.6rem;color:#D8B4FE;z-index:1}
+    .steps .step:last-child .step-ar{display:none}
+    .cta-btns{display:flex;gap:20px;flex-wrap:wrap;justify-content:center}
+    .cta-btn{
+      display:flex;align-
+items:center;justify-content:center;gap:14px;
+      color:#fff;text-decoration:none;padding:20px 40px;border-radius:50px;
+      font-family:'Hind Siliguri',sans-serif;font-size:1.1rem;font-weight:700;transition:.3s
+    }
+    .cta-wa{background:linear-gradient(135deg,var(--whatsapp),#128C7E);box-shadow:0 8px 30px rgba(37,211,102,.5)}
+    .cta-wa:hover{transform:translateY(-5px);box-shadow:0 15px 45px rgba(37,211,102,.7)}
+    .cta-fb{background:linear-gradient(135deg,var(--facebook),#1565C0);box-shadow:0 8px 30px rgba(24,119,242,.5)}
+    .cta-fb:hover{transform:translateY(-5px);box-shadow:0 15px 45px rgba(24,119,242,.7)}
+    .cta-fb svg{width:24px;height:24px;fill:#fff}
+    /* ===== CONTACT ===== */
+    #contact{background:linear-gradient(135deg,#1A1033,#2D1060,#4C1D95);color:#fff}
+    .con-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:28px}
+    .con-card{
+      background:rgba(255,255,255,.1);border-radius:var(--radius);padding:30px;
+
+     border:1px solid rgba(255,255,255,.2);text-align:center;backdrop-filter:blur(10px);transition:.3s
+    }
+    .con-card:hover{background:rgba(255,255,255,.15);transform:translateY(-8px);box-shadow:0 15px 40px rgba(0,0,0,.3)}
+    .con-card .ic{font-size:3rem;margin-bottom:16px;filter:drop-shadow(0 4px 15px rgba(255,214,0,.3))}
+    .con-card h3{font-family:'Baloo Da 2',cursive;font-size:1.1rem;color:var(--yellow);margin-bottom:10px;text-shadow:0 0 20px rgba(255,214,0,.5)}
+    .con-card a{color:#E0E0E0;text-decoration:none;font-size:.95rem;transition:.3s}
+    .con-card a:hover{color:var(--yellow)}
+    .con-card p{color:#E0E0E0;font-size:.95rem}
+    .con-card .fb-ic{width:28px;height:28px;fill:var(--facebook);margin-bottom:8px;filter:drop-shadow(0 0 10px rgba(24,119,242,.5))}
+   /* ===== FOOTER ===== */
+    footer{background:#0D0826;color:#888;text-align:center;padding:28px 5%;font-size:.9rem}
+    .ft-inner{display:flex;align-items:center;justify-content:center;gap:30px;flex-wrap:wrap;margin-bottom:15px}
+    .ft-logo{display:flex;align-items:center;gap:10px}
+    .ft-logo svg{width:40px;height:40px}
+    .ft-logo-t{font-family:'Baloo Da 2',cursive;color:var(--yellow);font-size:1.1rem}
+    .ft-social{display:flex;gap:12px}
+    .ft-social a{
+      width:40px;height:40px;border-radius:50%;display:flex;align-items:center;
+      justify-content:center;transition:.3s;text-decoration:none
+    }
+    .ft-social a svg{width:22px;height:22px;fill:#fff}
+    .ft-fb{background:var(--facebook);box-shadow:0 4px 15px rgba(24,119,242,.4)}
+    .ft-fb:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(24,119,242,.6)}
+    .ft-wa{background:var(--whatsapp);box-shadow:0 4px 15px rgba(37,211,102,.4)}
+    .ft-wa:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(37,211,102,.6)}
+    .ft-copy{color:#666;font-size:.85rem}
+    .ft-copy span{color:var(--yellow);font-weight:700}
+     /* ===== FLOATING BUTTONS ===== */
+    .fl-social{position:fixed;bottom:28px;right:28px;z-index:999;display:flex;flex-direction:column;gap:12px}
+    .fl-btn{
+      width:60px;height:60px;border-radius:50%;display:flex;align-items:center;
+      justify-content:center;color:#fff;text-decoration:none;font-size:1.6rem;transition:.3s;position:relative
+    }
+    .fl-btn:hover{transform:scale(1.15)}
+    .fl-wa{background:linear-gradient(135deg,var(--whatsapp),#128C7E);box-shadow:0 6px 25px rgba(37,211,102,.6);animation:bounceF 3s ease-in-out infinite}
+   .fl-wa:hover{box-shadow:0 10px 35px rgba(37,211,102,.8)}
+    .fl-fb{background:linear-gradient(135deg,var(--facebook),#1565C0);box-shadow:0 6px 25px rgba(24,119,242,.6);animation:bounceF 3s ease-in-out infinite .5s}
+    .fl-fb:hover{box-shadow:0 10px 35px rgba(24,119,242,.8)}
+    .fl-fb svg{width:28px;height:28px;fill:#fff}
+    @keyframes bounceF{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .fl-btn .tip{
+      position:absolute;right:70px;background:rgba(0,0,0,.85);color:#fff;
+      padding:8px 14px;border-radius:8px;font-size:.82rem;font-weight:600;
+      white-space:nowrap;opacity:0;pointer-events:none;transition:.3s
+    }
+    .fl-btn:hover .tip{opacity:1;transform:translateX(-5px)}
+    /* ===== MOBILE ===== */
+    @media(max-width:768px){
+      .nav-links,.nav-order,.nav-center{display:none}
+      .hamburger{display:flex}
+      .hero{padding:60px 5% 50px;min-height:auto}
+      .gadgets-l,.gadgets-r{display:none}
+      .showcase{height:300px}
+      .sc-item{width:150px;height:170px}
+      .sc-item .ic{font-size:3.5rem}
+      .sc-item .lb{font-size:.9rem}
+      .sb-vis{font-size:7rem}
+      .steps{flex-direction:column}
+      .step-ar{display:none}
+      .fl-social{bottom:20px;right:20px}
+      .fl-btn{width:52px;height:52px;font-size:1.4rem}
+      .fl-btn .tip{display:none}
+      .cta-btns{flex-direction:column;align-items:center}
+    }
+  </style>
+</head>
+<body>
+<!-- ====== MOBILE OVERLAY & MENU ====== -->
+<div class="mob-overlay" id="mobOverlay"></div>
+<div class="mob-menu" id="mobMenu">
+  <div class="mob-search">
+    <input type="text" id="mobSearch" placeholder="🔍 প্রোডাক্ট খুঁজুন..."/>
+  </div>
+  <a href="#categories">📂 ক্যাটাগরি</a>
+  <a href="#products">🛍️ প্রোডাক্ট</a>
+  <a href="#soundbox">🔊 সাউন্ড বক্স</a>
+  <a href="#reviews">⭐ রিভিউ</a>
+  <a href="#contact">📞 যোগাযোগ</a>
+  <a href="https://www.facebook.com/thegadgetghor" target="_blank" class="fb-mob">
+    <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+    Facebook পেজ দেখুন
+  </a>
+  <a href="https://wa.me/8801340353399?text=আমি%20অর্ডার%20করতে%20চাই" target="_blank" style="background:linear-gradient(90deg,var(--orange),var(--pink));color:#fff;margin:10px 20px;border-radius:12px;text-align:center;border-bottom:none">📦 অর্ডার করুন</a>
+</div>
+<!-- ====== NAVIGATION ====== -->
+<nav>
+  <a class="nav-logo" href="#">
+    <svg class="shop-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFD600"/><stop offset="100%" stop-color="#FF6B00"/></linearGradient>
+        <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#FF2D78"/>
+  </linearGradient>
+      </defs>
+      <circle cx="50" cy="50" r="48" fill="url(#lg2)"/>
+      <circle cx="50" cy="50" r="44" fill="none" stroke="url(#lg1)" stroke-width="3" stroke-dasharray="8 4"/>
+      <rect x="32" y="28" width="12" height="30" rx="4" fill="url(#lg1)"/>
+      <rect x="56" y="28" width="12" height="30" rx="4" fill="url(#lg1)"/>
+      <rect x="38" y="52" width="24" height="10" rx="3" fill="url(#lg1)"/>
+      <rect x="44" y="60" width="12" height="18" rx="4" fill="url(#lg1)"/>
+      <polygon points="50,18 44,40 52,38 48,58 60,32 52,34 56,18" fill="#fff" opacity=".9"/>
+    </svg>
+    <span class="logo-text"><span>The Gadget Ghor</span><span>দ্যা গ্যাজেট ঘর</span></span>
+  </a>
+  <div class="nav-center">
+<div class="search-box">
+      <input type="text" id="deskSearch" placeholder="🔍 প্রোডাক্ট খুঁজুন..."/>
+      <span class="s-icon">🔍</span>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#categories">ক্যাটাগরি</a>
+    <a href="#products">প্রোডাক্ট</a>
+    <a href="#reviews">রিভিউ</a>
+    <a href="#contact">যোগাযোগ</a>
+    <a class="fb-nav" href="https://www.facebook.com/thegadgetghor" target="_blank">
+      <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-
+8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      Facebook
+    </a>
+  </div>
+  <a class="nav-order" href="https://wa.me/8801340353399?text=আমি%20অর্ডার%20করতে%20চাই" target="_blank">📦 অর্ডার</a>
+  <div class="hamburger" id="ham"><span></span><span></span><span></span></div>
+</nav>
+<!-- ====== HERO ====== -->
+<section class="hero">
+  <div class="gadgets-l">
+    <div class="gi g1">🎧</div><div
+class="gi g2">📱</div>
+    <div class="gi g3">🔋</div><div class="gi g4">💡</div>
+  </div>
+  <div class="gadgets-r">
+    <div class="gi g5">⌚</div><div class="gi g6">🔌</div>
+    <div class="gi g7">🔊</div><div class="gi g8">🌀</div>
+  </div>
+  <div class="hero-text">
+    <div class="hero-badge">⚡ বাংলাদেশের সেরা গ্যাজেট শপ</div>
+    <h1>সেরা <span class="acc">গ্যাজেট</span>,<br/>সেরা দামে! <span class="wave">👋</span></h1>
+   <p>রিচার্জেবল ফ্যান, এয়ারপডস, চার্জার, স্মার্ট লাইটার, সাউন্ড বক্স সহ সকল চাইনিজ ইলেকট্রিক আইটেম — এক জায়গায়, সাশ্রয়ী মূল্যে।</p>
+    <div class="hero-cta">
+      <a href="#products" class="btn-p">🛍️ শপিং শুরু করুন</a>
+      <a href="https://www.facebook.com/thegadgetghorBD" target="_blank" class="btn-s">
+        <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v
+1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        Facebook পেজ
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="n">৫০০+</div><div class="l">খুশি কাস্টমার</div></div>
+      <div class="stat"><div class="n">১০০+</div><div class="l">প্রোডাক্ট</div></div>
+      <div class="stat"><div class="n">৫★</div><div class="l">রেটিং</div></div>
+   </div>
+  </div>
+  <div class="hero-visual">
+    <div class="showcase">
+      <div class="sc-item s1"><div class="ic">🎧</div><div class="lb">এয়ারপডস</div></div>
+      <div class="sc-item s2"><div class="ic">🔊</div><div class="lb">সাউন্ড বক্স</div></div>
+      <div class="sc-item s3"><div class="ic">🌀</div><div class="lb">ফ্যান</div></div>
+    </div>
+  </div>
+</section>
+<!-- ====== MARQUEE ====== -->
+<div class="marquee-w">
+  <div class="marquee-t">
+    <span>🎉 বিশেষ অফার চলছে</span><span class="dt">●</span>
+    <span>📘 Facebook পেজে লাইক দিন</span><span class="dt">●</span>
+    <span>⚡ ঢাকায় হোম ডেলিভারি</span><span class="dt">●</span>
+    <span>💯 ১০০% অরিজিনাল প্রোডাক্ট</span><span class="dt">●</span>
+    <span>📦 ক্যাশ অন ডেলিভারি</span><span class="dt">●</span>
+    <span>🎉 বিশেষ অফার চলছে</span><span class="dt">●</span>
+    <span>📘 Facebook পেজে লাইক দিন</span><span class="dt">●</span>
+    <span>⚡ ঢাকায় হোম ডেলিভারি</span><span class="dt">●</span>
+    <span>💯 ১০০% অরিজিনাল প্রোডাক্ট</span><span class="dt">●</span>
+    <span>📦 ক্যাশ অন ডেলিভারি</span><span class="dt">●</span>
+  </div>
+</div>
+<!-- ====== CATEGORIES ====== -->
+<section id="categories">
+  <div class="sec-lbl">CATEGORIES</div>
+  <h2 class="sec-ttl">আমাদের ক্যাটাগরি</h2>
+  <p class="sec-sub">বিভিন্ন ধরনের চাইনিজ ইলেকট্রনিক আইটেম এক জায়গায় পাবেন</p>
+  <div class="cat-grid">
+    <a href="#products" class="cat-card c1" data-cat="ফ্যান"><div class="ci">🌀</div><div
+class="cn">রিচার্জেবল ফ্যান</div></a>
+    <a href="#products" class="cat-card c2" data-cat="এয়ারপডস"><div class="ci">🎧</div><div class="cn">এয়ারপডস</div></a>
+    <a href="#products" class="cat-card c3" data-cat="চার্জার"><div class="ci">🔌</div><div class="cn">চার্জার</div></a>
+    <a href="#products" class="cat-card c4" data-cat="লাইটার"><div class="ci">🔥</div><div class="cn">স্মার্ট লাইটার</div></a>
+    <a href="#products" class="cat-card c5" data-cat="সাউন্ড বক্স"><div class="ci">🔊</div><div class="cn">সাউন্ড বক্স</div></a>
+    <a href="#products" class="cat-card c6" data-cat="ওয়াচ"><div class="ci">⌚</div><div class="cn">স্মার্ট ওয়াচ</div></a>
+    <a href="#products" class="cat-card c7" data-cat="ব্যাটারি"><div class="ci">🔋</div><div class="cn">পাওয়ার ব্যাংক</div></a>
+    <a href="#products" class="cat-card c8" data-cat="লাইট"><div class="ci">💡</div><div class="cn">LED লাইট</div></a>
+  </div>
+</section>
+<!-- ====== PRODUCTS ====== -->
+<section id="products">
+  <div class="sec-lbl">PRODUCTS</div>
+  <h2 class="sec-ttl">আমাদের জনপ্রিয় প্রোডাক্ট</h2>
+  <p class="sec-sub">সেরা মানের প্রোডাক্ট, সাশ্রয়ী দামে</p>
+  <div class="flt-bar">
+    <button class="flt-btn active" data-f="সব">সব প্রোডাক্ট</button>
+    <button class="flt-btn" data-f="ফ্যান">ফ্যান</button>
+    <button class="flt-btn" data-f="এয়ারপডস">এয়ারপডস</button>
+    <button class="flt-btn" data-f="সাউন্ড বক্স">সাউন্ড বক্স</button>
+    <button class="flt-btn" data-f="চার্জার">চার্জার</button>
+    <button class="flt-btn" data-f="লাইটার">লাইটার</button>
+  </div>
+  <div class="prod-grid" id="pGrid">
+    <div class="prod-card" data-cat="ফ্যান" data-n="মিনি রিচার্জেবল ফ্যান প্রিমিয়াম">
+      <div class="prod-thumb" style="background:linear-gradient(135deg,#E3F2FD,#BBDEFB)">🌀<div class="b-new">নতুন</div></div>
+      <div class="prod-info"><h3>মিনি রিচার্জেবল ফ্যান</h3><p class="pd">প্রিমিয়াম কোয়ালিটি, দীর্ঘস্থায়ী ব্যাটারি</p><div class="price-r"><div><span class="price">৳৩৫০</span><span class="price-o">৳৫০০</span></div></div><a href="https://wa.me/8801340353399?text=আমি%20মিনি%20ফ্যান%20অর্ডার%20করতে%20চাই" target="_blank" class="ord-btn">💬 অর্ডার করুন</a></div>
+    </div>
+    <div class="prod-card" data-cat="এয়ারপডস" data-n="প্রো এয়ারপডস হাই কোয়ালিটি">
+      <div class="prod-thumb" style="background:linear-gradient(135deg,#F3E5F5,#E1BEE7)">🎧<div class="b-hot">জনপ্রিয়</div></div>
+      <div class="prod-info"><h3>প্রো এয়ারপডস</h3><p class="pd">হাই কোয়ালিটি সাউন্ড, ব্লুটুথ ৫.০</p><div class="price-r"><div><span class="price">৳৬৫০</span><span class="price-o">৳১০০০</span></div></div><a href="https://wa.me/8801340353399?text=আমি%20প্রো%20এয়ারপডস%20অর্ডার%20করতে%20চাই" target="_blank" class="ord-btn">💬 অর্ডার করুন</a></div>
+    </div>
+    <div class="prod-card" data-cat="সাউন্ড বক্স" data-n="পোর্টেবল ব্লুটুথ স্পিকার বাস">
+      <div class="prod-thumb" style="background:linear-gradient(135deg,#FCE4EC,#F8BBD0)">🔊<div class="b-hot">জনপ্রিয়</div></div>
+      <div class="prod-info"><h3>পোর্টেবল স্পিকার</h3><p class="pd">দুর্দান্ত বাস, RGB লাইট</p><div class="price-r"><div><span class="price">৳৮৫০</span><span class="price-o">৳১৫০০</span></div></div><a href="https://wa.me/8801340353399?text=আমি%20স্পিকার%20অর্ডার%20করতে%20চাই" target="_blank" class="ord-btn">💬 অর্ডার করুন</a></div>
+    </div>
+    <div class="prod-card" data-cat="চার্জার" data-n="ফাস্ট চার্জার সুপার দ্রুত">
+      <div class="prod-thumb" style="background:linear-gradient(135deg,#E8F5E9,#C8E6C9)">🔌<div class="b-new">নতুন</div></div>
+      <div class="prod-info"><h3>ফাস্ট চার্জার ৩০W</h3><p class="pd">সুপার দ্রুত চার্জিং</p><div class="price-r"><div><span class="price">৳৪৫০</span><span class="price-o">৳৭০০</span></div></div><a href="https://wa.me/8801340353399?text=আমি
